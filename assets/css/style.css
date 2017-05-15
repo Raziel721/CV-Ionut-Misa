@@ -684,7 +684,20 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .btn {
   margin-left: 10px;
   padding: 0px 30px;
-  /*background-color: #2196f3;*/
+  background-color: #2196f3;
+  box-shadow: 0 0 20px 0 rgba(0, 169, 255, 0.5);
+  background-image: -webkit-linear-gradient(-10deg, #2196f3, #00a9ff);
+  background-image: -moz-linear-gradient(-10deg, #2196f3, #00a9ff);
+  background-image: -ms-linear-gradient(-10deg, #2196f3, #00a9ff);
+  background-image: -o-linear-gradient(-10deg, #2196f3, #00a9ff);
+  background-image: linear-gradient(100deg, #2196f3, #00a9ff);
+  -webkit-transition: all 0.06s linear;
+  transition: all 0.06s linear;
+}
+/*.btn {
+  margin-left: 10px;
+  padding: 0px 30px;
+  background-color: #2196f3;
   box-shadow: 0 0 20px 0 rgba(0, 169, 255, 0.5);
   background-image: -webkit-linear-gradient(-10deg, #00a9ff, #682eff);
   background-image: -moz-linear-gradient(-10deg, #00a9ff, #682eff);
@@ -693,7 +706,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   background-image: linear-gradient(100deg, #00a9ff, #682eff);
   -webkit-transition: all 0.06s linear;
   transition: all 0.06s linear;
-}
+}*/
 .btn:hover,
 .btn:focus {
   background-color: #2196f3;
